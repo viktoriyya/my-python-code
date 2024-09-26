@@ -16,9 +16,11 @@ print("How are you?", "is type of", type("How are you?"))
 print(True, "is type of", type(True))
 
 
-print(isinstance(123, int))
-print(isinstance(43.23, int))
-print(isinstance(4 - 1j, complex))
-print(isinstance("How are you?", str))
-print(isinstance(True, str))
+print(f"Is {123} an instance of int: {isinstance(123, int)}")
+print(f"Is {43.23} an instance of int: {isinstance(43.23, int)}")
+print(f"Is {4 - 1j} an instance of complex: {isinstance(4 - 1j, complex)}")
+print(f"Is {'How are you?'} an instance of string: {isinstance('How are you?', str)}")
+print(f"Is {True} an instance of string: {isinstance(True, str)}")
+
+
 
